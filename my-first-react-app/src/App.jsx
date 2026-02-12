@@ -30,7 +30,7 @@ function App() {
 
       <p>{colorlel}</p>
 
-      <p>{imageUrl}</p>
+      <img src='https://i1.sndcdn.com/artworks-ahelQysi0JU9iwOF-trpTRA-t1080x1080.png' alt="A cool image" />
 
     </div>
 
