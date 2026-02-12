@@ -8,7 +8,7 @@ function App() {
 
   const colorlel = "blue";
 
-  const imageUrl = "https://www.pngall.com/wp-content/uploads/5/React-Logo-PNG-Picture.png";
+  const imageUrl = "https://i1.sndcdn.com/artworks-ahelQysi0JU9iwOF-trpTRA-t1080x1080.png";
 
   return (
 
