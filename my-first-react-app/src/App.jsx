@@ -1,4 +1,7 @@
 import './App.css'
+import Header from './Components/Header'
+import Footer from './Components/Footer'
+import Food from './Components/Food'
 
 function App() {
 
@@ -10,29 +13,20 @@ function App() {
 
   const imageUrl = "https://i1.sndcdn.com/artworks-ahelQysi0JU9iwOF-trpTRA-t1080x1080.png";
 
+
   return (
 
     <div>
-
-      <h1>Hello, React!</h1>
-
-      <h2>My name is {yourName}</h2>
-
-      <p>I’m learning React in {currentYear}.</p>
-
-      <p>This is my first React component!</p>
-
-      <ul>
-        <li> I wanna build some surveys and forms i guess</li>
-        <li> I wanna makea mango or something</li>
-        <li> I wanna make a website for my portfolio</li>
-      </ul>
-
-      <p>{colorlel}</p>
-
-      <img src='https://i1.sndcdn.com/artworks-ahelQysi0JU9iwOF-trpTRA-t1080x1080.png' alt="A cool image" />
-
+      <Header />
+      <main>
+        <h2>Welcome to my wbesite!</h2>
+        <Food />
+        <Food />
+      </main>
+      <Footer /> 
     </div>
+
+
 
   );
 
